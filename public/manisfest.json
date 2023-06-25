@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Anime Recommendations",
+  "version": "1.0",
+  "description": "Get personalized anime recommendations.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_title": "Anime Recommendations",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab" 
+  ]
+}
